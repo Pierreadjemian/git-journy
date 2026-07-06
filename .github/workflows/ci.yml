@@ -9,9 +9,9 @@ name: Java CI with Gradle
 
 on:
   push:
-    branches: [ "Pierreadjemian-patch-1" ]
+    branches: [ "Main" ]
   pull_request:
-    branches: [ "Pierreadjemian-patch-1" ]
+    branches: [ "Main" ]
 
 jobs:
   build:
