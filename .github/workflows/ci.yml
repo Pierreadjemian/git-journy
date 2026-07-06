@@ -15,9 +15,10 @@ on:
 
 jobs:
   build:
-
-    runs-on: ubuntu-latest
-    permissions:
+    runs-on: ${{matrix.os}}
+ stragtegy:
+      matrix:
+      os: [ubuntu-latest, windows-latest, mac0s-latest]
       contents: read
 
     steps:
